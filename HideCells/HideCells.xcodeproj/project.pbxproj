@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBEE02F5184EE836002FF250 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEE02F4184EE836002FF250 /* UIKit.framework */; };
+		EBEE02F7184EE836002FF250 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEE02F6184EE836002FF250 /* Foundation.framework */; };
+		EBEE02F9184EE836002FF250 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBEE02F8184EE836002FF250 /* CoreGraphics.framework */; };
+		EBEE02FF184EE836002FF250 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EBEE02FD184EE836002FF250 /* InfoPlist.strings */; };
+		EBEE0301184EE836002FF250 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEE0300184EE836002FF250 /* main.m */; };
+		EBEE0305184EE836002FF250 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEE0304184EE836002FF250 /* AppDelegate.m */; };
+		EBEE0307184EE836002FF250 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE0306184EE836002FF250 /* Default.png */; };
+		EBEE0309184EE836002FF250 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE0308184EE836002FF250 /* Default@2x.png */; };
+		EBEE030B184EE836002FF250 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE030A184EE836002FF250 /* Default-568h@2x.png */; };
+		EBEE0315184EE8C9002FF250 /* HouseViewSectionHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEE0314184EE8C9002FF250 /* HouseViewSectionHeader.m */; };
+		EBEE031B184EE91A002FF250 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBEE031A184EE91A002FF250 /* MainViewController.m */; };
+		EBEE032B184EF0F6002FF250 /* SRHouseViewHeaderDown.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE031D184EF0F6002FF250 /* SRHouseViewHeaderDown.png */; };
+		EBEE032C184EF0F6002FF250 /* SRHouseViewHeaderDown@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE031E184EF0F6002FF250 /* SRHouseViewHeaderDown@2x.png */; };
+		EBEE032D184EF0F6002FF250 /* SRHouseViewHeaderIntroduction.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE031F184EF0F6002FF250 /* SRHouseViewHeaderIntroduction.png */; };
+		EBEE032E184EF0F6002FF250 /* SRHouseViewHeaderIntroduction@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE0320184EF0F6002FF250 /* SRHouseViewHeaderIntroduction@2x.png */; };
+		EBEE032F184EF0F6002FF250 /* SRHouseViewHeaderMap.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE0321184EF0F6002FF250 /* SRHouseViewHeaderMap.png */; };
+		EBEE0330184EF0F6002FF250 /* SRHouseViewHeaderMap@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE0322184EF0F6002FF250 /* SRHouseViewHeaderMap@2x.png */; };
+		EBEE0331184EF0F6002FF250 /* SRHouseViewHeaderNearTraffic.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE0323184EF0F6002FF250 /* SRHouseViewHeaderNearTraffic.png */; };
+		EBEE0332184EF0F6002FF250 /* SRHouseViewHeaderNearTraffic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE0324184EF0F6002FF250 /* SRHouseViewHeaderNearTraffic@2x.png */; };
+		EBEE0333184EF0F6002FF250 /* SRHouseViewHeaderOnlineUser.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE0325184EF0F6002FF250 /* SRHouseViewHeaderOnlineUser.png */; };
+		EBEE0334184EF0F6002FF250 /* SRHouseViewHeaderOnlineUser@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE0326184EF0F6002FF250 /* SRHouseViewHeaderOnlineUser@2x.png */; };
+		EBEE0335184EF0F6002FF250 /* SRHouseViewHeaderSale.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE0327184EF0F6002FF250 /* SRHouseViewHeaderSale.png */; };
+		EBEE0336184EF0F6002FF250 /* SRHouseViewHeaderSale@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE0328184EF0F6002FF250 /* SRHouseViewHeaderSale@2x.png */; };
+		EBEE0337184EF0F6002FF250 /* SRHouseViewHeaderUp.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE0329184EF0F6002FF250 /* SRHouseViewHeaderUp.png */; };
+		EBEE0338184EF0F6002FF250 /* SRHouseViewHeaderUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EBEE032A184EF0F6002FF250 /* SRHouseViewHeaderUp@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBEE02F1184EE836002FF250 /* HideCells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HideCells.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBEE02F4184EE836002FF250 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBEE02F6184EE836002FF250 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EBEE02F8184EE836002FF250 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EBEE02FC184EE836002FF250 /* HideCells-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HideCells-Info.plist"; sourceTree = "<group>"; };
+		EBEE02FE184EE836002FF250 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EBEE0300184EE836002FF250 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBEE0302184EE836002FF250 /* HideCells-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HideCells-Prefix.pch"; sourceTree = "<group>"; };
+		EBEE0303184EE836002FF250 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBEE0304184EE836002FF250 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBEE0306184EE836002FF250 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EBEE0308184EE836002FF250 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EBEE030A184EE836002FF250 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		EBEE0313184EE8C9002FF250 /* HouseViewSectionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseViewSectionHeader.h; sourceTree = "<group>"; };
+		EBEE0314184EE8C9002FF250 /* HouseViewSectionHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseViewSectionHeader.m; sourceTree = "<group>"; };
+		EBEE0319184EE91A002FF250 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = ../MainViewController.h; sourceTree = "<group>"; };
+		EBEE031A184EE91A002FF250 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; name = MainViewController.m; path = ../MainViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		EBEE031D184EF0F6002FF250 /* SRHouseViewHeaderDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SRHouseViewHeaderDown.png; sourceTree = "<group>"; };
+		EBEE031E184EF0F6002FF250 /* SRHouseViewHeaderDown@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SRHouseViewHeaderDown@2x.png"; sourceTree = "<group>"; };
+		EBEE031F184EF0F6002FF250 /* SRHouseViewHeaderIntroduction.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SRHouseViewHeaderIntroduction.png; sourceTree = "<group>"; };
+		EBEE0320184EF0F6002FF250 /* SRHouseViewHeaderIntroduction@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SRHouseViewHeaderIntroduction@2x.png"; sourceTree = "<group>"; };
+		EBEE0321184EF0F6002FF250 /* SRHouseViewHeaderMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SRHouseViewHeaderMap.png; sourceTree = "<group>"; };
+		EBEE0322184EF0F6002FF250 /* SRHouseViewHeaderMap@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SRHouseViewHeaderMap@2x.png"; sourceTree = "<group>"; };
+		EBEE0323184EF0F6002FF250 /* SRHouseViewHeaderNearTraffic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SRHouseViewHeaderNearTraffic.png; sourceTree = "<group>"; };
+		EBEE0324184EF0F6002FF250 /* SRHouseViewHeaderNearTraffic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SRHouseViewHeaderNearTraffic@2x.png"; sourceTree = "<group>"; };
+		EBEE0325184EF0F6002FF250 /* SRHouseViewHeaderOnlineUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SRHouseViewHeaderOnlineUser.png; sourceTree = "<group>"; };
+		EBEE0326184EF0F6002FF250 /* SRHouseViewHeaderOnlineUser@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SRHouseViewHeaderOnlineUser@2x.png"; sourceTree = "<group>"; };
+		EBEE0327184EF0F6002FF250 /* SRHouseViewHeaderSale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SRHouseViewHeaderSale.png; sourceTree = "<group>"; };
+		EBEE0328184EF0F6002FF250 /* SRHouseViewHeaderSale@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SRHouseViewHeaderSale@2x.png"; sourceTree = "<group>"; };
+		EBEE0329184EF0F6002FF250 /* SRHouseViewHeaderUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SRHouseViewHeaderUp.png; sourceTree = "<group>"; };
+		EBEE032A184EF0F6002FF250 /* SRHouseViewHeaderUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SRHouseViewHeaderUp@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBEE02EE184EE836002FF250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEE02F5184EE836002FF250 /* UIKit.framework in Frameworks */,
+				EBEE02F7184EE836002FF250 /* Foundation.framework in Frameworks */,
+				EBEE02F9184EE836002FF250 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBEE02E8184EE836002FF250 = {
+			isa = PBXGroup;
+			children = (
+				EBEE02FA184EE836002FF250 /* HideCells */,
+				EBEE02F3184EE836002FF250 /* Frameworks */,
+				EBEE02F2184EE836002FF250 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBEE02F2184EE836002FF250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE02F1184EE836002FF250 /* HideCells.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBEE02F3184EE836002FF250 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE02F4184EE836002FF250 /* UIKit.framework */,
+				EBEE02F6184EE836002FF250 /* Foundation.framework */,
+				EBEE02F8184EE836002FF250 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBEE02FA184EE836002FF250 /* HideCells */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE0303184EE836002FF250 /* AppDelegate.h */,
+				EBEE0304184EE836002FF250 /* AppDelegate.m */,
+				EBEE0319184EE91A002FF250 /* MainViewController.h */,
+				EBEE031A184EE91A002FF250 /* MainViewController.m */,
+				EBEE0313184EE8C9002FF250 /* HouseViewSectionHeader.h */,
+				EBEE0314184EE8C9002FF250 /* HouseViewSectionHeader.m */,
+				EBEE031C184EF0F6002FF250 /* images */,
+				EBEE02FB184EE836002FF250 /* Supporting Files */,
+			);
+			path = HideCells;
+			sourceTree = "<group>";
+		};
+		EBEE02FB184EE836002FF250 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE02FC184EE836002FF250 /* HideCells-Info.plist */,
+				EBEE02FD184EE836002FF250 /* InfoPlist.strings */,
+				EBEE0300184EE836002FF250 /* main.m */,
+				EBEE0302184EE836002FF250 /* HideCells-Prefix.pch */,
+				EBEE0306184EE836002FF250 /* Default.png */,
+				EBEE0308184EE836002FF250 /* Default@2x.png */,
+				EBEE030A184EE836002FF250 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBEE031C184EF0F6002FF250 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				EBEE031D184EF0F6002FF250 /* SRHouseViewHeaderDown.png */,
+				EBEE031E184EF0F6002FF250 /* SRHouseViewHeaderDown@2x.png */,
+				EBEE031F184EF0F6002FF250 /* SRHouseViewHeaderIntroduction.png */,
+				EBEE0320184EF0F6002FF250 /* SRHouseViewHeaderIntroduction@2x.png */,
+				EBEE0321184EF0F6002FF250 /* SRHouseViewHeaderMap.png */,
+				EBEE0322184EF0F6002FF250 /* SRHouseViewHeaderMap@2x.png */,
+				EBEE0323184EF0F6002FF250 /* SRHouseViewHeaderNearTraffic.png */,
+				EBEE0324184EF0F6002FF250 /* SRHouseViewHeaderNearTraffic@2x.png */,
+				EBEE0325184EF0F6002FF250 /* SRHouseViewHeaderOnlineUser.png */,
+				EBEE0326184EF0F6002FF250 /* SRHouseViewHeaderOnlineUser@2x.png */,
+				EBEE0327184EF0F6002FF250 /* SRHouseViewHeaderSale.png */,
+				EBEE0328184EF0F6002FF250 /* SRHouseViewHeaderSale@2x.png */,
+				EBEE0329184EF0F6002FF250 /* SRHouseViewHeaderUp.png */,
+				EBEE032A184EF0F6002FF250 /* SRHouseViewHeaderUp@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBEE02F0184EE836002FF250 /* HideCells */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBEE030E184EE836002FF250 /* Build configuration list for PBXNativeTarget "HideCells" */;
+			buildPhases = (
+				EBEE02ED184EE836002FF250 /* Sources */,
+				EBEE02EE184EE836002FF250 /* Frameworks */,
+				EBEE02EF184EE836002FF250 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HideCells;
+			productName = HideCells;
+			productReference = EBEE02F1184EE836002FF250 /* HideCells.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBEE02E9184EE836002FF250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "598295582@qq.com";
+			};
+			buildConfigurationList = EBEE02EC184EE836002FF250 /* Build configuration list for PBXProject "HideCells" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EBEE02E8184EE836002FF250;
+			productRefGroup = EBEE02F2184EE836002FF250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBEE02F0184EE836002FF250 /* HideCells */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBEE02EF184EE836002FF250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEE02FF184EE836002FF250 /* InfoPlist.strings in Resources */,
+				EBEE0307184EE836002FF250 /* Default.png in Resources */,
+				EBEE0309184EE836002FF250 /* Default@2x.png in Resources */,
+				EBEE030B184EE836002FF250 /* Default-568h@2x.png in Resources */,
+				EBEE032B184EF0F6002FF250 /* SRHouseViewHeaderDown.png in Resources */,
+				EBEE032C184EF0F6002FF250 /* SRHouseViewHeaderDown@2x.png in Resources */,
+				EBEE032D184EF0F6002FF250 /* SRHouseViewHeaderIntroduction.png in Resources */,
+				EBEE032E184EF0F6002FF250 /* SRHouseViewHeaderIntroduction@2x.png in Resources */,
+				EBEE032F184EF0F6002FF250 /* SRHouseViewHeaderMap.png in Resources */,
+				EBEE0330184EF0F6002FF250 /* SRHouseViewHeaderMap@2x.png in Resources */,
+				EBEE0331184EF0F6002FF250 /* SRHouseViewHeaderNearTraffic.png in Resources */,
+				EBEE0332184EF0F6002FF250 /* SRHouseViewHeaderNearTraffic@2x.png in Resources */,
+				EBEE0333184EF0F6002FF250 /* SRHouseViewHeaderOnlineUser.png in Resources */,
+				EBEE0334184EF0F6002FF250 /* SRHouseViewHeaderOnlineUser@2x.png in Resources */,
+				EBEE0335184EF0F6002FF250 /* SRHouseViewHeaderSale.png in Resources */,
+				EBEE0336184EF0F6002FF250 /* SRHouseViewHeaderSale@2x.png in Resources */,
+				EBEE0337184EF0F6002FF250 /* SRHouseViewHeaderUp.png in Resources */,
+				EBEE0338184EF0F6002FF250 /* SRHouseViewHeaderUp@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBEE02ED184EE836002FF250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBEE0301184EE836002FF250 /* main.m in Sources */,
+				EBEE0305184EE836002FF250 /* AppDelegate.m in Sources */,
+				EBEE0315184EE8C9002FF250 /* HouseViewSectionHeader.m in Sources */,
+				EBEE031B184EE91A002FF250 /* MainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBEE02FD184EE836002FF250 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBEE02FE184EE836002FF250 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBEE030C184EE836002FF250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EBEE030D184EE836002FF250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBEE030F184EE836002FF250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HideCells/HideCells-Prefix.pch";
+				INFOPLIST_FILE = "HideCells/HideCells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EBEE0310184EE836002FF250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HideCells/HideCells-Prefix.pch";
+				INFOPLIST_FILE = "HideCells/HideCells-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBEE02EC184EE836002FF250 /* Build configuration list for PBXProject "HideCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEE030C184EE836002FF250 /* Debug */,
+				EBEE030D184EE836002FF250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBEE030E184EE836002FF250 /* Build configuration list for PBXNativeTarget "HideCells" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBEE030F184EE836002FF250 /* Debug */,
+				EBEE0310184EE836002FF250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBEE02E9184EE836002FF250 /* Project object */;
+}
